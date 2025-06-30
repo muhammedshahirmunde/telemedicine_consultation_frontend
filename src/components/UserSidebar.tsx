@@ -37,6 +37,8 @@ const UserSidebar: React.FC = () => {
                 className={`flex flex-col ${isOpen ? "block" : "hidden"} md:block p-6`}
             >
                 <NavLink to="/dashboard" className="mb-2 text-center hover:bg-blue-500 bg-gray-800 px-4 py-2 mb-6 rounded">Home</NavLink>
+                <NavLink to="/prescriptions" className="mb-2 text-center hover:bg-blue-500 bg-gray-800 px-4 py-2 mb-6 rounded">Prescriptions</NavLink>
+
             </div>
         </div>
     );
