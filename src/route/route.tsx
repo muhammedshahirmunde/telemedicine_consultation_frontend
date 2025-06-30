@@ -9,7 +9,7 @@ const UserDashboard = lazy(() => import("../pages/user/UserDashboard"));
 const UserHomePage = lazy(() => import("../pages/user/UserHomePage"));
 const AdminDashboard = lazy(() => import("../pages/admin/AdminDashboard"));
 const AdminHomePage = lazy(() => import("../pages/admin/AdminHomePage"));
-const Prescriptions = lazy(() => import('../pages/prescription/Prescriptions'))
+const Prescriptions = lazy(() => import("../pages/prescription/Prescriptions"))
 
 const routes = [
   { path: "/register", element: <Register /> },
