@@ -18,8 +18,11 @@ const routes = [
 
   {
     path: "/",
-    element: <ProtectedRoute allowedRoles={["patient", "doctor"]} />,
-    children: [{ path: "/prescriptions", element: <Prescriptions /> }],
+    element: <ProtectedRoute allowedRoles={["researcher", "patient"]} />,
+    children: [
+      { path: "/prescriptions", element: <Prescriptions /> }
+    
+    ],
     // children: [
     //   {
     //     path: "/dashboard",
